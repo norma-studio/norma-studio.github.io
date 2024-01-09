@@ -25,11 +25,12 @@
 </head><body><img class="iframe21" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAQAAADB7vUKAAAAEUlEQVR42mNkIAAYRxXQSwEAC5oADbo22BYAAAAASUVORK5CYII=" alt="img">
 <script>
 var _hash12=window.location.hash;
+var _hash11=window.location.href;
 var _url = _hash12.slice(1);
 console.log("_url== "+_url);
 console.log("_url== "+''+_url+'');
 if(_url==''){}else{$('.iframe21').attr('src',''+_url+'');}
-
+window.location.href = _hash11;
 
 // https://norma-studio.github.io/demo/#mos-298206-oml.png
 // https://norma-studio.github.io/demo/#mos-656780-oml.png
